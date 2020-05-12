@@ -31,7 +31,7 @@ body {
     list-style:none;
   }
   .bg-image {
-    background-image: url('https://github.com/MiojoSinixtro/test/blob/master/bg.gif');
+    background-image: url('https://raw.githubusercontent.com/MiojoSinixtro/test/master/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(3px);
