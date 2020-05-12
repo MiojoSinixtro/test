@@ -1,41 +1,56 @@
 body {
-    background-image: url('https://cdn.discordapp.com/attachments/684508995624632438/709520669221847100/20200511_184016.jpg');
-    background-size: auto 160vh;
-    font-family: arial;
-  }
+    background-image: url('https://media.discordapp.net/attachments/684508995624632438/709559606564749342/20200511_210455.jpg?width=473&height=473');
+    background-size: 300vh 200vh;
+    font-family: calibri;
+    height: 100vh;
+
+}
+
+.menu {
+    background-color:;
     
-  .menu{
-     background-color: ghostwhite;
-  }
-  
-  .menu ul {
-    display:flex;
+}
+
+.menu ul {
+    display: flex;
     justify-content: space-around;
-  }
-  
-  .menu li {
+    border: 3px solid #f1f1f1;
+    box-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+    
+}
+
+.menu li {
     list-style: none;
-  }
-  
-  a {
-    color: #20b2aa; 
+}
+
+a {
     text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .site-title {
-    text-align: center;
     color: whitesmoke;
-  }
-  
-  .site-subtitle {
-    color: snow ;
+    font-size: 26px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title {
     text-align: center;
-  }
-  
-  .site-subtitle {
-  font-style: italic;
-  }
+    font-size: 60px;  
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 2px black,
+      2px 0 black, 0 -1px black
+}
+
+.site-subtitle {
+    text-align: center;
+    font-size: 30px;  
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 2px black,
+      2px 0 black, 0 -1px black
+}
+ .site-subititle {
+    font-style: italic;
+ }
+
