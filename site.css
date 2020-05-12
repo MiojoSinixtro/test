@@ -1,56 +1,58 @@
 body {
-    background-image: url('https://media.discordapp.net/attachments/684508995624632438/709559606564749342/20200511_210455.jpg?width=473&height=473');
-    background-size: 300vh 200vh;
-    font-family: calibri;
-    height: 100vh;
-
-}
-
-.menu {
-    background-color:;
+    height: 100%;
+    margin: 0;
+    color: limegreen;
+    font-family: sans-serif;
+  }
+  header {
+    width: 100%;
+  }
+  a {
+    color: limegreen;
+    padding:10px;
+    text-decoration:none;
+    transition: 0.5s;
     
-}
-
-.menu ul {
+  }
+  a:hover {
+    background-color: gray;
+  }
+  .menu ul {
     display: flex;
     justify-content: space-around;
-    border: 3px solid #f1f1f1;
-    box-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
+    width: 100%;
+    padding: 10px;
+    border: 2px solid limegreen;
     
-}
-
-.menu li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 26px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-a:hover {
-    text-decoration: underline;
-}
-
-.site-title {
+      
+  }
+  .menu li {
+    color: limegreen;
+    list-style:none;
+  }
+  .bg-image {
+    background-image: url('https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+  }
+  header {
+    position: absolute;
+  }
+  .info{
+    background-color: rgba(0,0,0, 0.4);
+    margin: auto;
+    width: 1000px;
+  }
+  .site-title,
+  .site-subtitle{
     text-align: center;
-    font-size: 60px;  
-    color: whitesmoke;
-    text-shadow: -1px 0 black, 0 2px black,
-      2px 0 black, 0 -1px black
-}
-
-.site-subtitle {
-    text-align: center;
-    font-size: 30px;  
-    color: whitesmoke;
-    text-shadow: -1px 0 black, 0 2px black,
-      2px 0 black, 0 -1px black
-}
- .site-subititle {
+  }
+  
+  .site-subtitle{
     font-style: italic;
- }
-
+  }
