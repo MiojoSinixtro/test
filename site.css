@@ -3,17 +3,8 @@ body {
     margin: 0;
     color: limegreen;
     font-family: sans-serif;
-    background-image: url('https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
-    position: fixed;
-    width: 100%;
   }
-
-    header {
+  header {
     width: 100%;
   }
   a {
@@ -39,7 +30,16 @@ body {
     color: limegreen;
     list-style:none;
   }
-   
+  .bg-image {
+    background-image: url('https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+  }
   header {
     position: absolute;
   }
